@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="12.455" height="15" viewBox="0 0 12.455 15">
+  <g id="icon" transform="translate(-7.5 -1.5)">
+    <g id="icon_data" transform="translate(8 2)">
+      <path id="パス_42" data-name="パス 42" d="M12.545,29.455H6.6a1.119,1.119,0,0,1-1.1-1.1V20.5h1v7.85a.134.134,0,0,0,.1.1h5.941Z" transform="translate(-6 -14.955)" fill="#fff"/>
+      <path id="パス_43" data-name="パス 43" d="M22.273,13.955H14.636A1.138,1.138,0,0,1,13.5,12.818V2.636A1.138,1.138,0,0,1,14.636,1.5h8.136v1H14.636a.138.138,0,0,0-.136.136V12.818a.138.138,0,0,0,.136.136h7.636a.138.138,0,0,0,.136-.136V3.568h1v9.25A1.138,1.138,0,0,1,22.273,13.955Z" transform="translate(-11.455 -2)" fill="#fff"/>
+      <path id="線_5" data-name="線 5" d="M2.5.5h-3v-1h3Z" transform="translate(5.727 3)" fill="#fff"/>
+      <path id="線_6" data-name="線 6" d="M2.5.5h-3v-1h3Z" transform="translate(5.727 5)" fill="#fff"/>
+      <path id="線_7" data-name="線 7" d="M1.5.5h-2v-1h2Z" transform="translate(5.727 9)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

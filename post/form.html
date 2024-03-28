@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Croissant+One&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/f14198f99c.js" crossorigin="anonymous"></script>
+</head>
+<body class="apply">
+  <header class="page-header" id="top">
+    <div class="header-container">
+      <div class="sitetitle">
+        <h1 class="header-logo"><a href="index.html"><img src="./images/header-logo.svg" alt=""></a></h1>
+        <div class="navbtn"></div>
+      </div>
+      <nav>
+        <ul class="header-nav collapse">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="post.html">最新の特集</a></li>
+          <li><a href="#">地域別に読む</a></li>
+          <li><a href="#">連載一覧</a></li>
+          <li><a href="#">インタビュー</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div class="campain">
+    <div class="campain-container">
+      <h2 class="apply-title">
+        <span>
+          Tansaku! 10th Anniversary
+        </span><br>
+        キャンペーン応募フォーム
+      </h2>
+      <p class="apply-lead">
+        Tansaku! が10周年を迎えたのを記念して、プレゼントキャンペーンを実施します。ロゴ入りのオリジナルステンレスマグ、Tシャツ、トートバッグをそれぞれ5名様にプレゼント。当選者にはメールでご連絡いたします。
+      </p>
+    </div>
+  </div>
+  <div class="present-form">
+    <div class="from-container">
+      <form id="form" class="form" action="#">
+        <p>
+          <label for="name">
+            お名前
+            <span class="required">
+              必須
+            </span>
+          </label><br>
+          <input type="text" name="name" id="name" placeholder="お名前" required>
+        </p>
+        <p>
+          <label for="email">
+          メールアドレス
+          <span class="required">必須</span><br>
+        </label>
+        <input type="email" name="email" id="email" placeholder="メールアドレス" required>
+        </p>
+        <p>
+          <label for="present">希望のプレゼント</label><span class="required">
+            必須
+          </span><br>
+          <select name="present" id="present">
+            <option >プレゼントを選んでください</option>
+            <option value="1" required>ステンレスマグ</option>
+            <option value="2">Tシャツ</option>
+            <option value="3">トートバッグ</option>
+          </select>
+        </p>
+        <p>
+          <label for="msg">メッセージ</label><br>
+          <textarea name="msg" id="msg" ></textarea>
+        </p>
+        <p>
+          <label><input type="checkbox" name="privacy" id="privacy"  value="privacy"  required>
+            プライバシーポリシーに同意する
+          </label>
+        </p>
+        <p class="form-btn">
+          <input type="submit" value="キャンペーンに応募する" name="send">
+        </p>
+      </form>
+    </div>
+  </div>
+
+  <div class="page-bottom">
+    <div class="bottom-container">
+      <div class="banner">
+        <div class="banner-item"><a href="#"><img src="./images/banner-1.png" alt=""></a></div>
+        <div class="banner-item"><a href="#"><img src="./images/banner-2.png" alt=""></a></div>
+      </div>
+        <h2 class="followus">Follow Us</h2>
+        <div class="sns">
+          <div class="sns-item"><a href="#"><i class="fa-brands fa-twitter"></i></a></div>
+          <div class="sns-item"><a href="#"><i class="fa-brands fa-facebook"></i></a></div>
+          <div class="sns-item"><a href="#"><i class="fa-brands fa-instagram"></i></a></div>
+        </div>
+        <div class="gotop">
+          <a href="#top"><i class="fa-solid fa-chevron-up"></i></a>
+        </div>
+    </div>
+  </div>
+  <footer class="page-footer">
+    <div class="footer-container">
+      <div class="footer-logo">
+        <a href="index.html"><img src="./images/footer-logo.svg" alt=""></a>
+      </div>
+      <ul class="footer-nav1">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="post.html">最新の特集</a></li>
+        <li><a href="#">地域別に読む</a></li>
+        <li><a href="#">連載一覧</a></li>
+        <li><a href="#">インタビュー</a></li>
+      </ul>
+      <ul class="footer-nav2">
+        <li><a href="#">このサイトについて</a></li>
+        <li><a href="#">運営会社</a></li>
+      </ul>
+      <p class="copyright">©2021 Tansaku! All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="./js/script.js"></script>
+</body>
+</html>

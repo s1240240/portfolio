@@ -1,0 +1,87 @@
+@charset 'UTF-8';
+
+.title{
+  height: 360px;
+  width: 100%;
+  background-image: url(../images/menu/bg-main.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-shadow: 1px 1px 10px #4b2c14;
+}
+
+.title h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.title p{
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.list-item{
+  width: 930px;
+  max-width: 90%;
+  margin: 75px auto 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,240px);
+  column-gap: 95px;
+  row-gap: 70px;
+  justify-content: center;
+}
+
+ .list-item li{
+  flex-shrink: 0;
+  width: 260px;
+  position: relative;
+}
+
+ .list-item dl{
+  margin-top: 20px;
+}
+
+ .list-item dt{
+  font-weight: bold;
+  font-size: 18px;
+  text-align: left;
+}
+
+ .list-item dd{
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 10px;
+  text-align: justify;
+}
+
+ .list-item .price{
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.list-item .item-label{
+  position: absolute;
+  top: 0;
+  left: calc( 100% + 18px );  
+  font-size: 10px; 
+  white-space: nowrap; 
+  transform-origin: top left;
+  transform: rotate(90deg);
+}
+
+.footer{
+  margin-top: 100px;
+}
+
+@media (max-width: 800px){
+  .list-item{
+    margin-top: 40px;
+    row-gap: 40px;
+  }
+}

@@ -1,0 +1,975 @@
+<!doctype html>
+<html lang="ja">
+
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" >
+  <meta http-equiv="Content-Style-Type" content="text/css" >
+  <meta http-equiv="Content-Script-Type" content="text/javascript" >
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+  <meta name="description" content="山田建築事務所はデザイン性の高いスタイリッシュな家づくりが得意な福島県の住宅建設会社。">
+  <title>山田建築事務所</title>
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <!-- slick -->
+  <link rel="stylesheet" type="text/css" href="./assets/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="./assets/slick/slick-theme.css" />
+  <!-- original css -->
+  <link rel="stylesheet" href="assets/css/common.css">
+  <link rel="stylesheet" href="assets/css/top.css">
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- favicon -->
+  <link href="assets/images/common/Favicon.png" rel="icon" type="image/x-icon">
+  <!-- アイコン -->
+  <link rel="apple-touch-icon" href="assets/images/common/Touch-icon.png">
+
+  <!-- https://ogp.me/ -->
+  <meta property="og:title" content="山田建築事務所">
+  <meta property="og:site_name" content="山田建築事務所">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ja-JP">
+  <!-- SNS画像 -->
+  <meta property="og:image"
+    content="https://academy-curriculum.hatafull.co.jp/for-student/220907/yamada/assets/images/common/ogp.png">
+  <meta property="og:description" content="山田建築事務所はデザイン性の高いスタイリッシュな家づくりが得意な福島県の住宅建設会社。">
+</head>
+
+<body>
+  <header class="l-header">
+    <div class="l-header__container">
+      <h1 class="header-logo">
+        <a href="./index.html" class="logo__link">
+          <img class="logo__img" src="./assets/images/common/logo.svg" alt="山田建築事務所">
+        </a>
+      </h1>
+      <!-- pc header -->
+      <div class="l-header__right -pcHeader">
+        <nav class="header__nav">
+          <div class="l-gnav__top">
+            <a href="contact.html" class="btn -contact btn__header">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15.697" height="12.8" viewBox="0 0 15.697 12.8">
+                <g transform="translate(-5.6 -12.6)">
+                  <path d="M21.3,25.4H5.6V12.6H21.3ZM6.4,24.6H20.5V13.4H6.4Z" fill="#183746" />
+                  <path
+                    d="M16.944,26.739a.4.4,0,0,1-.224-.069l-5.275-3.563.448-.663,5.052,3.412L22,22.445l.448.663-5.275,3.563A.4.4,0,0,1,16.944,26.739Z"
+                    transform="translate(-3.496 -5.876)" fill="#183746" />
+                </g>
+              </svg>
+              お問い合わせ
+            </a>
+            <a href="download.html" class="btn -pdf btn__header-pdf">
+              <svg xmlns="http://www.w3.org/2000/svg" width="12.455" height="15" viewBox="0 0 12.455 15">
+                <g transform="translate(-7.5 -1.5)">
+                  <g transform="translate(8 2)">
+                    <path d="M12.545,29.455H6.6a1.119,1.119,0,0,1-1.1-1.1V20.5h1v7.85a.134.134,0,0,0,.1.1h5.941Z"
+                      transform="translate(-6 -14.955)" fill="#fff" />
+                    <path
+                      d="M22.273,13.955H14.636A1.138,1.138,0,0,1,13.5,12.818V2.636A1.138,1.138,0,0,1,14.636,1.5h8.136v1H14.636a.138.138,0,0,0-.136.136V12.818a.138.138,0,0,0,.136.136h7.636a.138.138,0,0,0,.136-.136V3.568h1v9.25A1.138,1.138,0,0,1,22.273,13.955Z"
+                      transform="translate(-11.455 -2)" fill="#fff" />
+                    <path d="M2.5.5h-3v-1h3Z" transform="translate(5.727 3)" fill="#fff" />
+                    <path d="M2.5.5h-3v-1h3Z" transform="translate(5.727 5)" fill="#fff" />
+                    <path d="M1.5.5h-2v-1h2Z" transform="translate(5.727 9)" fill="#fff" />
+                  </g>
+                </g>
+              </svg>
+              資料請求
+            </a>
+          </div>
+          <div class="l-gnav__bottom">
+            <ul class="l-gnav__lists">
+              <li class="l-gnav__item">
+                <a href="concept.html" class="l-gnav__links">
+                  コンセプト
+                </a>
+              </li>
+              <li class="l-gnav__item">
+                <a href="feature.html" class="l-gnav__links">
+                  特徴
+                </a>
+              </li>
+              <li class="l-gnav__item">
+                <a href="works.html" class="l-gnav__links">
+                  実例集
+                </a>
+              </li>
+              <li class="l-gnav__item">
+                <a href="voice.html" class="l-gnav__links">
+                  お客様の声
+                </a>
+              </li>
+              <li class="l-gnav__item">
+                <a href="flow.html" class="l-gnav__links">
+                  家づくりの流れ
+                </a>
+              </li>
+              <li class="l-gnav__item">
+                <a href="event.html" class="l-gnav__links">
+                  イベント
+                </a>
+              </li>
+              <li class="l-gnav__item">
+                <a href="news.html" class="l-gnav__links">
+                  お知らせ
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+    </div>
+    <button class="hamburger openbtn js-openbtn">
+      <span class="hamburger__line"></span>
+    </button>
+  </header>
+  <!-- sp header -->
+  <div class="gnav -spHeader js-gnav">
+    <div class="gnav__list-sp">
+      <ul class="l-gnav__lists-sp">
+        <li class="l-gnav__item-sp">
+          <a href="concept.html" class="l-gnav__links-sp js-gnav__link-sp ">
+            コンセプト
+          </a>
+        </li>
+        <li class="l-gnav__item-sp">
+          <a href="feature.html" class="l-gnav__links-sp js-gnav__link-sp">
+            特徴
+          </a>
+        </li>
+        <li class="l-gnav__item-sp">
+          <a href="works.html" class="l-gnav__links-sp js-gnav__link-sp">
+            実例集
+          </a>
+        </li>
+        <li class="l-gnav__item-sp">
+          <a href="voice.html" class="l-gnav__links-sp js-gnav__link-sp">
+            お客様の声
+          </a>
+        </li>
+        <li class="l-gnav__item-sp">
+          <a href="flow.html" class="l-gnav__links-sp js-gnav__link-sp">
+            家づくりの流れ
+          </a>
+        </li>
+        <li class="l-gnav__item-sp">
+          <a href="event.html" class="l-gnav__links-sp js-gnav__link-sp">
+            イベント
+          </a>
+        </li>
+        <li class="l-gnav__item-sp">
+          <a href="news.html" class="l-gnav__links-sp js-gnav__link-sp">
+            お知らせ
+          </a>
+        </li>
+        <li class="l-gnav__item-sp -gnavCta">
+          <a href="news.html" class="l-gnav__links-sp js-gnav__link-sp">
+            お問い合わせ
+          </a>
+        </li>
+        <li class="l-gnav__item-sp -gnavCta">
+          <a href="news.html" class="l-gnav__links-sp">
+            資料請求
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <main class="l-main">
+    <section class="MV">
+      <div class="l-MV__outer">
+        <div class="l-MV__container">
+          <div class="l-MV__img">
+            <div class="l-MV__wrapper">
+              <h2 class="l-MV__lead-ttl js-lead-ttl js-blur__trigger">
+                <img src="./assets/images/top/lead.svg" alt="歩くような速さで、あなたの暮らしに、寄り添う家" class="lead__main-img">
+              </h2>
+              <p class="l-MV__lead-subttl js-lead-subttl js-blur__trigger js-rotate__trigger">
+                <img src="./assets/images/top/Andante.svg" alt="Andante" class="lead__sub-img">
+              </p>
+            </div>
+          </div>
+        </div>
+        <p class="l-MV__scroll">
+          <img src="./assets/images/top/scroll.svg" alt="Scroll">
+        </p>
+        <div class="l-banner js-banner">
+          <a href="download.html" class="l-banner__link">
+            <img src="./assets/images/common/banner.png"
+              srcset="./assets/images/common/banner.png 1x, ./assets/images/common/banner@2x.png 2x"
+              alt="資料請求はこちら。今すぐ無料ダウンロードする。" class="l-banner_img">
+          </a>
+          <button class="close js-btn__trigger">x</button>
+        </div>
+      </div>
+    </section>
+    <section class="l-section concept">
+      <div class="l-container">
+        <div class="l-wrapper concept">
+          <div class="l-concept__img -pc__item">
+            <img src="./assets/images/top/concept_img01.jpg"
+              srcset="./assets/images/top/concept_img01.jpg 1x, ./assets/images/top/concept_img01@2x.jpg 2x"
+              alt="観葉植物や絵画が飾られたちょうど良い広さの明るいリビングの様子" class="concept__img">
+          </div>
+          <div class="l-concept__content">
+            <div class="l-concept__wrapper js-fadein__trigger">
+              <h2 class="section__title concept__title js-section-concept__title js-blur-concept__trigger">
+                あるくように。うたうように。<br>
+                私達が奏でるのは人生です。
+              </h2>
+              <p class="concept__text js-section-concept__title" >
+                つれづれなるまゝに、日暮らし、硯にむかひて、心にうつりゆくよしなし事を、そこはかとなく書きつくれば、あやしうこそものぐるほしけれ。
+              </p>
+              <p class="concept__text js-section-concept__title">
+                つれづれなるまゝに、日暮らし、硯にむかひて、心にうつりゆくよしなし事を、そこはかとなく書きつくれば、あやしうこそものぐるほしけれ。
+              </p>
+              <a href="./concept.html" class="btn -main -concept">
+                コンセプトを見る
+              </a>
+            </div>
+            <ul class="l-concept__lists">
+              <li class="concept__item -sp__item">
+                <img src="./assets/images/top/concept_img01.jpg"
+                  srcset="./assets/images/top/concept_img01.jpg 1x, ./assets/images/top/concept_img01@2x.jpg 2x"
+                  alt="観葉植物や絵画が飾られたちょうど良い広さの明るいリビングの様子" class="concept__listimg">
+              </li>
+              <li class="concept__item">
+                <img src="./assets/images/top/concept_img02.jpg"
+                  srcset="./assets/images/top/concept_img02.jpg 1x, ./assets/images/top/concept_img02@2x.jpg 2x"
+                  alt="観葉植物や絵画が飾られたデザイン性の高い寝室に窓から光が差し込む様子" class="concept__listimg">
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="l-section feature">
+      <div class="l-container">
+        <div class="l-wrapper feature ">
+          <h2 class="section__title feature__title js-section-feature__title js-blur-feature__trigger">
+            特徴
+          </h2>
+          <p class="section__text js-section-feature__title">
+            山田建築事務所の家づくりにはお客様から
+            選ばれる3つの理由があります。
+          </p>
+          <div class="js-slicker">
+            <div class="l-feature__item">
+              <div class="l-feature-item__content">
+                <h3 class="feature-item__title section__title">
+                  01. デザイン性
+                </h3>
+                <p class="feature-item__text">
+                  受賞経験のある建築家が設計するスタイリッシュな住宅をご提案します。ゼロから作る、あなただけのデザイン住宅を作りませんか？
+                </p>
+                <a href="feature.html" class="btn -main -small -feature">デザインを見る</a>
+              </div>
+              <div class="l-feature-img__content">
+                <img src="./assets/images/top/feature01.jpg"
+                  srcset="./assets/images/top/feature01.jpg 1x, ./assets/images/top/feature01@2x.jpg 2x"
+                  alt="デザイン性の高い椅子や照明があるダイニングキッチンの様子" class="feature-item__img">
+              </div>
+            </div>
+            <div class="l-feature__item">
+              <div class="l-feature-item__content">
+                <h3 class="feature-item__title section__title">
+                  02. 住宅性能
+                </h3>
+                <p class="feature-item__text">
+                  お客様が快適に健康で永く暮らせるように素材にこだわり、高性能住宅を実現いたします。
+                </p>
+                <a href="feature.html" class="btn -main -small -feature">住宅性能について見る</a>
+              </div>
+              <div class="l-feature-img__content">
+                <img src="./assets/images/top/feature02.jpg"
+                  srcset="./assets/images/top/feature02.jpg 1x, ./assets/images/top/feature02@2x.jpg 2x"
+                  alt="デザイン性の高い椅子や照明があるダイニングキッチンの様子" class="feature-item__img">
+              </div>
+            </div>
+            <div class="l-feature__item">
+              <div class="l-feature-item__content">
+                <h3 class="feature-item__title section__title">
+                  03. アフターサポート
+                </h3>
+                <p class="feature-item__text">
+                  地域密着型だからこそできる、困った時のサポート体制は万全。また、安心の住宅完成保障制度に加入済み。
+                </p>
+                <a href="feature.html" class="btn -main -small -feature">サポートについて見る</a>
+              </div>
+              <div class="l-feature-img__content">
+                <img src="./assets/images/top/feature03.jpg"
+                  srcset="./assets/images/top/feature03.jpg 1x, ./assets/images/top/feature03@2x.jpg 2x"
+                  alt="デザイン性の高い椅子や照明があるダイニングキッチンの様子" class="feature-item__img">
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="feature.html" class="btn -main -white -large -feature">特徴を見る</a>
+      </div>
+    </section>
+    <section class="l-section works">
+      <div class="l-container works">
+        <div class="l-wrapper works">
+          <h2 class="section__title works__title js-section-work__title js-blur-work__trigger">
+            実例集
+          </h2>
+          <p class="section__text js-section-work__title">
+            これまでに福島県内の100組以上のお客様の住宅をご提供させて頂きました。
+          </p>
+          <div class="js-slicker">
+            <div class="l-works__item">
+              <div class="l-works-item__content">
+                <ul class="category__list">
+                  <li class="category__item">新築</li>
+                  <li class="category__item">2回建て</li>
+                  <li class="category__item">リビング</li>
+                </ul>
+                <h3 class="works-item__title section__title">
+                  家の特徴とタイトル
+                </h3>
+                <dl class="l-works__desc">
+                  <dt class="l-works__theme">住まい手</dt>
+                  <dd class="l-works__text">郡山市 A様邸</dd>
+                  <dt class="l-works__theme">家族構成</dt>
+                  <dd class="l-works__text">４人</dd>
+                  <dt class="l-works__theme">予算</dt>
+                  <dd class="l-works__text">1000万円</dd>
+                  <dt class="l-works__theme">延床面積</dt>
+                  <dd class="l-works__text">oooo坪</dd>
+                </dl>
+                <a href="works.html" class="btn -main -small -works -white">詳細を見る</a>
+              </div>
+              <div class="l-works-img__content">
+                <img src="./assets/images/top/work01.jpg"
+                  srcset="./assets/images/top/work01.jpg 1x, ./assets/images/top/work01@2x.jpg 2x"
+                  alt="デザイン性の高い椅子や照明があるダイニングキッチンの様子" class="works-item__img">
+              </div>
+            </div>
+            <div class="l-works__item">
+              <div class="l-works-item__content">
+                <ul class="category__list">
+                  <li class="category__item">新築</li>
+                  <li class="category__item">平家</li>
+                  <li class="category__item">寝室</li>
+                </ul>
+                <h3 class="works-item__title section__title">
+                  家の特徴とタイトル
+                </h3>
+                <dl class="l-works__desc">
+                  <dt class="l-works__theme">住まい手</dt>
+                  <dd class="l-works__text">福島市 A様邸</dd>
+                  <dt class="l-works__theme">家族構成</dt>
+                  <dd class="l-works__text">３人</dd>
+                  <dt class="l-works__theme">予算</dt>
+                  <dd class="l-works__text">1000万円</dd>
+                  <dt class="l-works__theme">延床面積</dt>
+                  <dd class="l-works__text">oooo坪</dd>
+                </dl>
+                <a href="works.html" class="btn -main -works -small -white">詳細を見る</a>
+              </div>
+              <div class="l-works-img__content">
+                <img src="./assets/images/top/work02.jpg"
+                  srcset="./assets/images/top/work02.jpg 1x, ./assets/images/top/work02@2x.jpg 2x"
+                  alt="デザイン性の高い椅子や照明があるダイニングキッチンの様子" class="works-item__img">
+              </div>
+            </div>
+            <div class="l-works__item">
+              <div class="l-works-item__content">
+                <ul class="category__list">
+                  <li class="category__item">新築</li>
+                  <li class="category__item">2回建て</li>
+                  <li class="category__item">階段</li>
+                </ul>
+                <h3 class="works-item__title section__title">
+                  家の特徴とタイトル
+                </h3>
+                <dl class="l-works__desc">
+                  <dt class="l-works__theme">住まい手</dt>
+                  <dd class="l-works__text">会津若松市 C様邸</dd>
+                  <dt class="l-works__theme">家族構成</dt>
+                  <dd class="l-works__text">7人</dd>
+                  <dt class="l-works__theme">予算</dt>
+                  <dd class="l-works__text">1000万円</dd>
+                  <dt class="l-works__theme">延床面積</dt>
+                  <dd class="l-works__text">oooo坪</dd>
+                </dl>
+                <a href="works.html" class="btn -main -works -small -white">詳細を見る</a>
+              </div>
+              <div class="l-works-img__content">
+                <img src="./assets/images/top/work03.jpg"
+                  srcset="./assets/images/top/work03.jpg 1x, ./assets/images/top/work03@2x.jpg 2x"
+                  alt="デザイン性の高い椅子や照明があるダイニングキッチンの様子" class="works-item__img">
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="works.html" class="btn -main -large">実績一覧を見る</a>
+      </div>
+    </section>
+    <section class="l-section cta">
+      <div class="l-container cta">
+        <div class="l-cta l-contact">
+          <h2 class="section__title cta__title">
+            お問い合わせ
+          </h2>
+          <p class="contact__tel">
+            <a href="tel:0120-123-456" class="tel__link">
+              <span class="tel__text">
+                電話番号
+              </span>
+              <span class="tel__numner">
+                0120-123-456
+              </span>
+            </a>
+          </p>
+          <p class="contact__openhour">
+            <span class="openhour__text">
+              営業時間
+            </span>
+            <span class="openhour__time">
+              平日：9:00〜18:00
+            </span>
+          </p>
+          <a href="contact.html" class="btn -contact -main -large -white -cta ">
+            <svg xmlns="http://www.w3.org/2000/svg" width="15.697" height="12.8" viewBox="0 0 15.697 12.8">
+              <g transform="translate(-5.6 -12.6)">
+                <path d="M21.3,25.4H5.6V12.6H21.3ZM6.4,24.6H20.5V13.4H6.4Z" fill="#183746" />
+                <path
+                  d="M16.944,26.739a.4.4,0,0,1-.224-.069l-5.275-3.563.448-.663,5.052,3.412L22,22.445l.448.663-5.275,3.563A.4.4,0,0,1,16.944,26.739Z"
+                  transform="translate(-3.496 -5.876)" fill="#183746" />
+              </g>
+            </svg>
+            お問い合わせする
+
+          </a>
+        </div>
+        <div class="l-cta l-download">
+          <h2 class="section__title cta__title">
+            資料請求
+          </h2>
+          <p class="download__desc">
+            資料請求は下記のフォームに必要事項をご記入の上、送信ボタンからお申込みください。
+          </p>
+          <a href="download.html" class="btn -pdf -main -large -white -cta">
+            <svg xmlns="http://www.w3.org/2000/svg" width="12.455" height="15" viewBox="0 0 12.455 15">
+              <g transform="translate(-7.5 -1.5)">
+                <g transform="translate(8 2)">
+                  <path d="M12.545,29.455H6.6a1.119,1.119,0,0,1-1.1-1.1V20.5h1v7.85a.134.134,0,0,0,.1.1h5.941Z"
+                    transform="translate(-6 -14.955)" fill="#fff" />
+                  <path
+                    d="M22.273,13.955H14.636A1.138,1.138,0,0,1,13.5,12.818V2.636A1.138,1.138,0,0,1,14.636,1.5h8.136v1H14.636a.138.138,0,0,0-.136.136V12.818a.138.138,0,0,0,.136.136h7.636a.138.138,0,0,0,.136-.136V3.568h1v9.25A1.138,1.138,0,0,1,22.273,13.955Z"
+                    transform="translate(-11.455 -2)" fill="#fff" />
+                  <path d="M2.5.5h-3v-1h3Z" transform="translate(5.727 3)" fill="#fff" />
+                  <path d="M2.5.5h-3v-1h3Z" transform="translate(5.727 5)" fill="#fff" />
+                  <path d="M1.5.5h-2v-1h2Z" transform="translate(5.727 9)" fill="#fff" />
+                </g>
+              </g>
+            </svg>
+            今すぐ資料請求する
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="l-section voices">
+      <div class="l-container voices">
+        <div class="l-wrapper voices">
+          <h2 class="section__title works__title js-section-voice__title js-blur-voice__trigger">
+            お客様の声
+          </h2>
+          <p class="section__text js-section-voice__title">
+            お客様から寄せられた声を紹介いたします。
+          </p>
+          <div class="voices_lists js-voices_lists">
+            <div class="voices_item">
+              <a class="l-voice-link">
+                <div class="voice-item__content">
+                  <h3 class="voice-item__title section__title">
+                    <span class="ttl">並木町の家</span>
+                    <span class="subttl">W様邸</span>
+                  </h3>
+                  <p class="voice-item__text">
+                    内観と間取りにこだわったオーダーメイドの家で、リモートワークも快適に。
+                  </p>
+                </div>
+                <div class="l-voice-img__content mask">
+                  <img src="./assets/images/top/voice01.jpg" alt="並木町の家の内観"
+                    srcset="./assets/images/top/voice01.jpg 1x, ./assets/images/top/voice01@2x.jpg 2x"
+                    class="voice-img zoomIn__img">
+                </div>
+              </a>
+            </div>
+            <div class="voices_item">
+              <a class="l-voice-link">
+                <div class="voice-item__content">
+                  <h3 class="voice-item__title section__title">
+                    <span class="ttl">安積町の家</span>
+                    <span class="subttl">A様邸</span>
+                  </h3>
+                  <p class="voice-item__text">
+                    全世代が住みやすく優しい平家で、バリアフリーを実現。窓も増やし、四季の変化を楽しむ。
+                  </p>
+                </div>
+                <div class="l-voice-img__content mask">
+                  <img src="./assets/images/top/voice02.jpg"
+                    srcset="./assets/images/top/voice02.jpg 1x, ./assets/images/top/voice02@2x.jpg 2x" alt="並木町の家の内観"
+                    class="voice-img zoomIn__img">
+                </div>
+              </a>
+            </div>
+            <div class="voices_item">
+              <a class="l-voice-link">
+                <div class="voice-item__content">
+                  <h3 class="voice-item__title section__title">
+                    <span class="ttl">富田町の家</span>
+                    <span class="subttl">T様邸</span>
+                  </h3>
+                  <p class="voice-item__text">
+                    建て替えで手に入れた、冬暖かくて、夏涼しい快適な家。
+                  </p>
+                </div>
+                <div class="l-voice-img__content mask">
+                  <img src="./assets/images/top/voice03.jpg"
+                    srcset="./assets/images/top/voice03.jpg 1x, ./assets/images/top/voice03@2x.jpg 2x" alt="並木町の家の内観"
+                    class="voice-img zoomIn__img">
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <a href="voice.html" class="btn -main -large -voice">お客様の声を見る</a>
+      </div>
+    </section>
+    <section class="l-section flow">
+      <div class="l-container flow">
+        <div class="l-wrapper flow">
+          <h2 class="section__title flow__title js-section-flow__title js-blur-flow__trigger">
+            家づくりの流れ
+          </h2>
+          <p class="section__text js-section-flow__title">
+            家づくりのご相談から完成までの流れをご紹介します。
+          </p>
+          <ol class="flow-lists">
+            <li class="flow-item">
+              <h3 class="l-flow-item__title">
+                <img src="./assets/images/top/flow_step01.svg" alt="step1 弊社を知る" class="flow-item__img">
+              </h3>
+              <p class="flow-item__text">
+                まずは無料の資料請求やお問合せをして頂き弊社の家づくりについて知る
+              </p>
+            </li>
+            <li class="flow-item">
+              <h3 class="l-flow-item__title">
+                <img src="./assets/images/top/flow_step02.svg" alt="step2 お申し込み" class="flow-item__img">
+              </h3>
+              <p class="flow-item__text">
+                敷地調査とヒアリングを経てプラン作成後、設計のお申し込み
+              </p>
+            </li>
+            <li class="flow-item">
+              <h3 class="l-flow-item__title">
+                <img src="./assets/images/top/flow_step03.svg" alt="step3 工事契約" class="flow-item__img">
+              </h3>
+              <p class="flow-item__text">
+                詳細プラン検討、見積もりを経て工事請負契約へ
+              </p>
+            </li>
+            <li class="flow-item">
+              <h3 class="l-flow-item__title">
+                <img src="./assets/images/top/flow_step04.svg" alt="step1 新築完成" class="flow-item__img">
+              </h3>
+              <p class="flow-item__text">
+                工事着工から完成、お引越し、その後のアフターサポートへ
+              </p>
+            </li>
+          </ol>
+        </div>
+        <a href="flow.html" class="btn -main -large -white -flow">フロー詳細を見る</a>
+      </div>
+    </section>
+    <section class="l-section event">
+      <div class="l-container event">
+        <div class="l-wrapper event">
+          <h2 class="section__title flow__title js-section-event__title js-blur-event__trigger">
+            イベント情報
+          </h2>
+          <p class="section__text js-section-event__title">
+            家づくり相談会や完成見学会などのイベント情報をお届けします。
+          </p>
+          <div class="event__lists js-event__lists">
+            <div class="l-event__item">
+              <div class="l-event-item__content">
+                <p class="l-category">
+                  完成見学会
+                </p>
+                <h3 class="event-item__title section__title">
+                  山田建築事務所
+                  モデルハウス見学会
+                </h3>
+                <p class="event__status">受付中</p>
+                <time datetime="2022-11-19" class="l-event-date">
+                  11月19日(土)
+                </time>
+                <p class="l-event-loc">
+                  郡山市
+                  山田建築事務所モデルハウス
+                </p>
+                <a href="event.html" class="btn -main -small">詳細を見る</a>
+              </div>
+              <div class="l-event-img__content">
+                <img src="./assets/images/top/event_img.jpg" alt="山田建築事務所モデルハウスイベント会場イメージ"
+                  srcset="./assets/images/top/event_img.jpg 1x, ./assets/images/top/event_img@2x.jpg 2x"
+                  class="event-item__img">
+              </div>
+            </div>
+            <div class="l-event__item">
+              <div class="l-event-item__content">
+                <p class="l-category -free">
+                  無料相談会
+                </p>
+                <h3 class="event-item__title section__title">
+                  【完全予約制】家づくり相談会
+                </h3>
+                <span class="event__status">受付中</span>
+                <time datetime="2022-11-02" class="l-event-date">
+                  11月02日(土)
+                </time>
+                <p class="l-event-loc">
+                  郡山市
+                  山田建築事務所打ち合わせルーム
+                </p>
+                <a href="event.html" class="btn -main -small">詳細を見る</a>
+              </div>
+              <div class="l-event-img__content">
+                <img src="./assets/images/top/event_img.jpg" alt="山田建築事務所モデルハウスイベント会場イメージ"
+                  srcset="./assets/images/top/event_img.jpg 1x, ./assets/images/top/event_img@2x.jpg 2x"
+                  class="event-item__img">
+              </div>
+            </div>
+            <div class="l-event__item -closed">
+              <div class="l-event-item__content">
+                <span class="l-category">完成見学会</span>
+                <h3 class="event-item__title section__title">
+                  山田建築事務所
+                  モデルハウス見学会
+                </h3>
+                <p class="event__status -closed">受付終了</p>
+                <time datetime="2022-10-29" class="l-event-date">
+                  10月29日(土)
+                </time>
+                <p class="l-event-loc">
+                  郡山市
+                  山田建築事務所モデルハウス
+                </p>
+                <a href="event.html" class="btn -main -small">詳細を見る</a>
+              </div>
+              <div class="l-event-img__content">
+                <img src="./assets/images/top/event_img.jpg" alt="山田建築事務所モデルハウスイベント会場イメージ"
+                  srcset="./assets/images/top/event_img.jpg 1x, ./assets/images/top/event_img@2x.jpg 2x"
+                  class="event-item__img">
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="event.html" class="btn -main -large -event">イベント一覧を見る</a>
+      </div>
+    </section>
+    <section class="l-section news">
+      <div class="l-container news">
+        <div class="l-wrapper news">
+          <h2 class="section__title news__title js-section-news__title js-blur-news__trigger">
+            お知らせ
+          </h2>
+          <p class="section__text js-section-news__title">
+            弊社の最新情報をお届けします。
+          </p>
+          <ol class="news__lists">
+            <li class="news__item">
+              <a href="./news.html" class="news__link">
+                <div class="news__title">
+                  <h3>
+                    施工事例更新のお知らせ
+                  </h3>
+                </div>
+                <div class="news__info">
+                  <time datetime="2022-11-01">2022.11.01</time>
+                  <p class="l-category">お知らせ</p>
+                </div>
+              </a>
+            </li>
+            <li class="news__item">
+              <a href="./news.html" class="news__link">
+                <div class="news__title">
+                  <h3>
+                    夏季休業のお知らせ
+                  </h3>
+                </div>
+                <div class="news__info">
+                  <time datetime="2022-08-01">2022.08.01</time>
+                  <p class="l-category">お知らせ</p>
+                </div>
+              </a>
+            </li>
+            <li class="news__item">
+              <a href="./news.html" class="news__link">
+                <div class="news__title">
+                  <h3>
+                    金利のご案内
+                  </h3>
+                </div>
+                <div class="news__info">
+                  <time datetime="2022-07-01">2022.07.01</time>
+                  <p class="l-category">お知らせ</p>
+                </div>
+              </a>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+    <section class="l-section cta-bottom">
+      <div class="l-container cta-bottom">
+        <div class="l-cta l-contact">
+          <h2 class="section__title cta__title">
+            お問い合わせ
+          </h2>
+          <p class="contact__tel">
+            <a href="tel:0120-123-456" class="tel__link">
+              <span class="tel__text">
+                電話番号
+              </span>
+              <span class="tel__numner">
+                0120-123-456
+              </span>
+            </a>
+          </p>
+          <p class="contact__openhour">
+            <span class="openhour__text">
+              営業時間
+            </span>
+            <span class="openhour__time">
+              平日：9:00〜18:00
+            </span>
+          </p>
+          <a href="contact.html" class="btn -contact -main -large -white -cta ">
+            <svg xmlns="http://www.w3.org/2000/svg" width="15.697" height="12.8" viewBox="0 0 15.697 12.8">
+              <g transform="translate(-5.6 -12.6)">
+                <path d="M21.3,25.4H5.6V12.6H21.3ZM6.4,24.6H20.5V13.4H6.4Z" fill="#183746" />
+                <path
+                  d="M16.944,26.739a.4.4,0,0,1-.224-.069l-5.275-3.563.448-.663,5.052,3.412L22,22.445l.448.663-5.275,3.563A.4.4,0,0,1,16.944,26.739Z"
+                  transform="translate(-3.496 -5.876)" fill="#183746" />
+              </g>
+            </svg>
+            お問い合わせする
+          </a>
+        </div>
+        <div class="l-cta l-download">
+          <h2 class="section__title cta__title">
+            資料請求
+          </h2>
+          <p class="download__desc">
+            資料請求は下記のフォームに必要事項をご記入の上、
+            送信ボタンからお申込みください。
+          </p>
+          <a href="download.html" class="btn -pdf -main -large -white -cta">
+            <svg xmlns="http://www.w3.org/2000/svg" width="12.455" height="15" viewBox="0 0 12.455 15">
+              <g transform="translate(-7.5 -1.5)">
+                <g transform="translate(8 2)">
+                  <path d="M12.545,29.455H6.6a1.119,1.119,0,0,1-1.1-1.1V20.5h1v7.85a.134.134,0,0,0,.1.1h5.941Z"
+                    transform="translate(-6 -14.955)" fill="#fff" />
+                  <path
+                    d="M22.273,13.955H14.636A1.138,1.138,0,0,1,13.5,12.818V2.636A1.138,1.138,0,0,1,14.636,1.5h8.136v1H14.636a.138.138,0,0,0-.136.136V12.818a.138.138,0,0,0,.136.136h7.636a.138.138,0,0,0,.136-.136V3.568h1v9.25A1.138,1.138,0,0,1,22.273,13.955Z"
+                    transform="translate(-11.455 -2)" fill="#fff" />
+                  <path d="M2.5.5h-3v-1h3Z" transform="translate(5.727 3)" fill="#fff" />
+                  <path d="M2.5.5h-3v-1h3Z" transform="translate(5.727 5)" fill="#fff" />
+                  <path d="M1.5.5h-2v-1h2Z" transform="translate(5.727 9)" fill="#fff" />
+                </g>
+              </g>
+            </svg>
+            今すぐ資料請求する
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="l-footer">
+    <div class="l-container l-footer__container">
+      <div class="l-footer-wrapper">
+        <div class="l-footer__info">
+          <a href="./index.html" class="footer__logo">
+            <img src="./assets/images/common/logo-white.svg" alt="山田建築事務所" class="logo__img">
+          </a>
+          <address>
+            <p class="footer__info-address">
+              〒000-0000　福島県郡山市xxx町xxx oo-oo
+            </p>
+            <a href="tel:0120-123-456" class="footer__info-tel">
+              <img src="./assets/images/common/icon-tel.svg" alt="電話アイコン" class="tel-icon">
+              <span>0120-123-456</span>
+            </a>
+            <p class="footer__info-time">
+              営業時間　平日：
+              <time datetime="09:00">
+                9:00
+              </time>
+              〜
+              <time datetime="18:00">
+                18:00
+              </time>
+            </p>
+
+          </address>
+
+        </div>
+        <div class="l-footer__sitemap">
+          <div class="l-footer__btn">
+            <a href="contact.html" class="btn -contact -main -large -white -footer">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15.697" height="12.8" viewBox="0 0 15.697 12.8">
+                <g transform="translate(-5.6 -12.6)">
+                  <path d="M21.3,25.4H5.6V12.6H21.3ZM6.4,24.6H20.5V13.4H6.4Z" fill="#183746" />
+                  <path
+                    d="M16.944,26.739a.4.4,0,0,1-.224-.069l-5.275-3.563.448-.663,5.052,3.412L22,22.445l.448.663-5.275,3.563A.4.4,0,0,1,16.944,26.739Z"
+                    transform="translate(-3.496 -5.876)" fill="#183746" />
+                </g>
+              </svg>
+              お問い合わせ
+            </a>
+            <a href="download.html" class="btn -pdf -large -main -green -footer">
+              <svg xmlns="http://www.w3.org/2000/svg" width="12.455" height="15" viewBox="0 0 12.455 15">
+                <g transform="translate(-7.5 -1.5)">
+                  <g transform="translate(8 2)">
+                    <path d="M12.545,29.455H6.6a1.119,1.119,0,0,1-1.1-1.1V20.5h1v7.85a.134.134,0,0,0,.1.1h5.941Z"
+                      transform="translate(-6 -14.955)" fill="#fff" />
+                    <path
+                      d="M22.273,13.955H14.636A1.138,1.138,0,0,1,13.5,12.818V2.636A1.138,1.138,0,0,1,14.636,1.5h8.136v1H14.636a.138.138,0,0,0-.136.136V12.818a.138.138,0,0,0,.136.136h7.636a.138.138,0,0,0,.136-.136V3.568h1v9.25A1.138,1.138,0,0,1,22.273,13.955Z"
+                      transform="translate(-11.455 -2)" fill="#fff" />
+                    <path d="M2.5.5h-3v-1h3Z" transform="translate(5.727 3)" fill="#fff" />
+                    <path d="M2.5.5h-3v-1h3Z" transform="translate(5.727 5)" fill="#fff" />
+                    <path d="M1.5.5h-2v-1h2Z" transform="translate(5.727 9)" fill="#fff" />
+                  </g>
+                </g>
+              </svg>
+              資料請求
+            </a>
+          </div>
+          <nav class="l-sitemap_list">
+            <ul class="l-sitemap_item">
+              <li>
+                <a href="./index.html" class="footer__link">
+                  トップ
+                </a>
+              </li>
+              <li>
+                <a href="./concept.html" class="footer__link">
+                  コンセプト
+                </a>
+              </li>
+              <li>
+                <a href="./feature.html" class="footer__link">
+                  特徴
+                </a>
+              </li>
+              <li>
+                <a href="./works.html" class="footer__link">
+                  実例集
+                </a>
+              </li>
+            </ul>
+            <ul class="l-sitemap_item">
+              <li>
+                <a href="./voice.html" class="footer__link">
+                  お客様の声
+                </a>
+              </li>
+              <li>
+                <a href="./flow.html" class="footer__link">
+                  家づくりの流れ
+                </a>
+              </li>
+              <li>
+                <a href="./event.html" class="footer__link">
+                  イベント情報
+                </a>
+              </li>
+              <li>
+                <a href="./news.html" class="footer__link">
+                  お知らせ
+                </a>
+              </li>
+            </ul>
+            <ul class="l-sitemap_item">
+              <li>
+                <a href="./contact.html" class="footer__link">
+                  お問合せ
+                </a>
+              </li>
+              <li>
+                <a href="./download.html" class="footer__link">
+                  資料請求
+                </a>
+              </li>
+              <li>
+                <a href="./company.html" class="footer__link">
+                  会社概要
+                </a>
+              </li>
+              <li>
+                <a href="./privacypolicy.html" class="footer__link">
+                  プライバシーポリシー
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <small class="copyright">
+        ©Yamada Architectural Office. All Rights Reserved.
+      </small>
+    </div>
+  </footer>
+  <div class="spCtanav js-spCtanav">
+    <nav class="spnav">
+      <ul class="spnav__list">
+        <li class="spnav__item">
+          <a href="./contact.html" class="spnav__link btn -white -contact">
+            <svg xmlns="http://www.w3.org/2000/svg" width="15.697" height="12.8" viewBox="0 0 15.697 12.8">
+              <g transform="translate(-5.6 -12.6)">
+                <path d="M21.3,25.4H5.6V12.6H21.3ZM6.4,24.6H20.5V13.4H6.4Z" fill="#183746" />
+                <path
+                  d="M16.944,26.739a.4.4,0,0,1-.224-.069l-5.275-3.563.448-.663,5.052,3.412L22,22.445l.448.663-5.275,3.563A.4.4,0,0,1,16.944,26.739Z"
+                  transform="translate(-3.496 -5.876)" fill="#183746" />
+              </g>
+            </svg>
+            お問い合わせ
+          </a>
+        </li>
+        <li class="spnav__item">
+          <a href="./contact.html" class="spnav__link btn -white -pdf">
+            <svg xmlns="http://www.w3.org/2000/svg" width="12.455" height="15" viewBox="0 0 12.455 15">
+              <g transform="translate(-7.5 -1.5)">
+                <g transform="translate(8 2)">
+                  <path d="M12.545,29.455H6.6a1.119,1.119,0,0,1-1.1-1.1V20.5h1v7.85a.134.134,0,0,0,.1.1h5.941Z"
+                    transform="translate(-6 -14.955)" fill="#fff" />
+                  <path
+                    d="M22.273,13.955H14.636A1.138,1.138,0,0,1,13.5,12.818V2.636A1.138,1.138,0,0,1,14.636,1.5h8.136v1H14.636a.138.138,0,0,0-.136.136V12.818a.138.138,0,0,0,.136.136h7.636a.138.138,0,0,0,.136-.136V3.568h1v9.25A1.138,1.138,0,0,1,22.273,13.955Z"
+                    transform="translate(-11.455 -2)" fill="#fff" />
+                  <path d="M2.5.5h-3v-1h3Z" transform="translate(5.727 3)" fill="#fff" />
+                  <path d="M2.5.5h-3v-1h3Z" transform="translate(5.727 5)" fill="#fff" />
+                  <path d="M1.5.5h-2v-1h2Z" transform="translate(5.727 9)" fill="#fff" />
+                </g>
+              </g>
+            </svg>
+            資料請求
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="./assets/slick/slick.min.js"></script>
+  <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

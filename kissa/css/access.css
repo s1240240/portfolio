@@ -1,0 +1,112 @@
+@charset 'UTF-8';
+
+/* access */
+main .title{
+  background-image: url(../images/access/bg-main.jpg);
+}
+
+main .container{
+  width: 930px;
+  max-width: 90%;
+  margin: 75px auto;
+}
+
+main .map iframe{
+  display: block;
+  width: 100%;
+  height: 320px;
+  margin-top: 25px;
+}
+
+main .contact .form-area{
+  background-color: #f8f8f8;
+  border: 1px solid #aaa;
+  margin-top: 25px;
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main .contact .form-area dt{
+  width: 200px;
+  padding: 15px 0;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 1.3;
+}
+
+
+
+main .contact .form-area dd{
+  width: calc(100% - 200px);
+  padding: 15px 0;
+}
+
+main .contact .form-area dt .required::after{
+  content: '必須';
+  font-size: 11px;
+  color: #eb4f32;
+  margin-left: 10px; 
+}
+
+
+main .contact .form-area dd .input-text{
+  width: 100%;
+  max-width: 280px;
+  height: 40px;
+  padding: 0 10px;
+}
+
+.select-box{
+  width: 200px;
+  height: 40px;
+}
+
+.radio-button{
+  display: block;
+}
+
+.radio-button + .radio-button{
+  margin-top: 20px;
+}
+
+.radio-button input{
+  margin-right: 8px;
+}
+
+.message{
+  width: 100%;
+  height: 260px;
+  padding: 10px;
+  line-height: 1.5;
+}
+
+.confirm-text{
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 30px;
+}
+
+.submit-button{
+  background-color: #f4dd64;
+  display: inline-block;
+  min-width: 180px;
+  line-height: 48px;
+  text-align: center;
+  border-radius: 24px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  margin-top: 25px;
+  cursor: pointer;
+  border: none;
+}
+
+.submit-button:hover{
+  background-color: #d8b500;
+}
+
+.footer{
+  margin-top: 100px;
+}
+
+

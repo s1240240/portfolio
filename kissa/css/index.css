@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+/* main */
+.first-view{
+  height: calc(100vh - 110px);
+  background-image: url(../images/index/bg-main.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+.first-view-text{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 40px;
+  padding-bottom: 80px;
+  color: #fff;
+  font-weight: bold;
+  text-shadow: 1px 1px 5px #4b2c14;
+}
+
+.first-view-text h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 54px;
+  line-height: 1.25;
+}
+
+.first-view-text p{
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.lead{
+  max-width: 1200px;
+  margin: 60px auto;
+  line-height: 2;
+  text-align: center;
+}
+
+.link-button-area{
+  text-align: center;
+  margin-top: 40px;
+}
+
+.link-button{
+  background-color: #f4dd64;
+  display: inline-block;
+  min-width: 180px;
+  line-height: 48px;
+  border-radius: 24px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+
+.link-button:hover{
+  background-color: #d8b500;
+}
+/* recommeded */
+.recommended{
+  background-color: #f8f8f8;
+  padding: 45px 0 45px 0;
+}
+
+.recommended h2{
+  font-size: 22px;
+  text-align: center;
+}
+
+.recommended h2::after{
+  content: '';
+  display: block;
+  width: 36px;
+  height: 3px;
+  background-color: #000;
+  margin: 20px auto 0 auto;
+}
+
+.recommended .item-list{
+  display: flex;
+  padding: 40px 60px 10px 30px;
+  gap: 30px 70px;
+  overflow: scroll;
+}
+
+.recommended .item-list li{
+  flex-shrink: 0;
+  width: 260px;
+}
+
+.recommended .item-list dl{
+  margin-top: 20px;
+}
+
+.recommended .item-list dt{
+  font-weight: bold;
+  font-size: 18px;
+  text-align: left;
+}
+
+.recommended .item-list dd{
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 10px;
+  text-align: justify;
+}
+
+.recommended .item-list .price{
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+@media (max-width: 800px) {
+  .first-view{
+    height: calc(100vh - 50px);
+    background-image: url(../images/index/bg-main-sp.jpg);
+    align-items: flex-start;
+  }
+
+  .first-view-text{
+    padding: 60px 0 0 20px;
+  }
+
+  .first-view-text h1{
+    font-size: 36px;
+  }
+  .first-view-text p{
+    font-size: 14px;
+    margin-top: 15px;
+  }
+
+  .lead{
+    padding: 0 20px 0 20px;
+    text-align: justify;
+  }
+  .recommended .item-list{
+    display: flex;
+    padding: 40px 30px 10px 30px;
+    gap: 30px 30px;
+  }
+  .recommended .item-list li{
+    width: 220px;
+  }
+}
